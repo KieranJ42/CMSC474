@@ -1,0 +1,41 @@
+## Input structure
+
+          C H E E E E H C 
+        H H H 0 0 0 0 H H H
+      H 0 0 0 0 0 0 0 0 0 0 H
+    C H 0 0 0 0 0 0 0 0 0 0 H C
+    C H 0 0 0 0 0 0 0 0 0 0 H C 
+      H 0 0 0 0 0 0 0 0 0 0 H
+        H H H 0 0 0 0 H H H
+          C H E E E E H C 
+
+
+          20 20
+          9 -5 -5 9
+          9 -5 0 0 -5 9
+          9 -5 7 7 7 7 -5 9
+          9 -5 0 7 7 7 7 0 -5 9
+          9 -5 0 0 7 7 7 7 0 0 -5 9
+          9 -5 0 0 0 7 7 7 7 0 0 0 -5 9
+          9 -5 0 0 0 0 7 7 7 7 0 0 0 0 -5 9
+          9 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 9
+          20 -5 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 -5 20
+
+
+
+## Ideas
+
+1) Corners (can never be flipped), labeled C are the most
+   valuable, so we should both always capture if we can and
+   avoid allowing our opponent to capture
+2) Going along with corners we have the high risk locations
+   directly around the corners, labeled H (for high)
+3) Edges, labeled E are useful with only being able to be captured
+   along edge, but also carry the risk of being used by the opponent to capture corners
+   (*Note, there are edges labeled H meaning some edges carry higher risk than others)
+4) Edges adjacent to High risk locations hold a lot of value if.
+   opponent can't immediately capture and the close corner is unoccupied, they allow us to be in a good spot to grab
+   corners or extra edge space if opponent allows it.
+
+In this way we can model the game similar to a Zero-Sum game such that when we score a game position,
+the score = `SUM( (Unoccupied:0, Ours:1, Opponent's:-1) * (C:25, H: -1, E:3, 0:1)`).
