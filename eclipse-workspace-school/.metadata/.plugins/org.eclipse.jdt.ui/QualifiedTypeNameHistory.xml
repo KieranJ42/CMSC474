@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+    <fullyQualifiedTypeName name="bsearchPolyTree.BsearchPolyTree"/>
+    <fullyQualifiedTypeName name="bsearchPolyTree.EmptyBsearchPolyTreeException"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.RETURN"/>
+    <fullyQualifiedTypeName name="cmsc420_s23.WtLeftHeap.Locator"/>
+    <fullyQualifiedTypeName name="Node"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="listClasses.SortedLinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="cmsc420_s23.SMkdTree.InternalNode"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="cmsc420_s23.ClusterAssignment.AssignedPair"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+</qualifiedTypeNameHistroy>

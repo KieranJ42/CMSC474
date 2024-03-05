@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.team.ccvs.ui.RepositoriesView">
+		<item key="selectedOrderBy" value="0"/>
+		<item key="selectedSortingOrder" value="true"/>
+	</section>
+	<section name="NewLocationWizard">
+		<item key="ConfigurationWizardMainPage.STORE_DONT_VALIDATE_ID" value="false"/>
+		<list key="ConfigurationWizardMainPage.STORE_USERNAME_ID">
+			<item value="kieranj"/>
+		</list>
+		<list key="ConfigurationWizardMainPage.STORE_HOSTNAME_ID">
+			<item value="grace.umd.edu"/>
+		</list>
+		<list key="ConfigurationWizardMainPage.STORE_PATH_ID">
+			<item value="/afs/glue/class/fall2021/cmsc/132/0101/student/kieranj"/>
+		</list>
+	</section>
+	<section name="org.eclipse.team.internal.ccvs.ui.CVSHistoryPage">
+		<item key="SASH_WEIGHTS" value="650;200;150;"/>
+		<item key="INNER_SASH_WEIGHTS" value="500;500;"/>
+		<item key="SORT_ORDER" value="true"/>
+	</section>
+	<section name="org.eclipse.team.internal.ccvs.ui.CVSHistoryTableProvider">
+		<item key="COL_REVISIONID" value="187"/>
+		<item key="COL_BRANCHES" value="187"/>
+		<item key="COL_TAGS" value="187"/>
+		<item key="COL_DATE" value="187"/>
+		<item key="COL_AUTHOR" value="187"/>
+		<item key="COL_COMMENT" value="187"/>
+		<item key="SORT_COL_NAME" value="COL_DATE"/>
+		<item key="SORT_COL_DIRECTION" value="1024"/>
+	</section>
+	<section name="CommitWizard">
+		<item key="VWeight1" value="500"/>
+		<item key="VWeight2" value="500"/>
+		<item key="ShowCompare" value="false"/>
+		<item key="height" value="853"/>
+		<item key="width" value="400"/>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LinkyList.java&apos; to &apos;proj5/linkyList&apos;&#x0D;&#x0A;- Original project: &apos;proj3&apos;&#x0D;&#x0A;- Destination element: &apos;proj5/linkyList&apos;&#x0D;&#x0A;- Original element: &apos;linkyList.LinkyList.java&apos;" description="Copy compilation unit" destination="=proj5/&lt;linkyList" element1="/&lt;linkyList{LinkyList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1635200474653" units="1" version="1.0"/>
+</session>

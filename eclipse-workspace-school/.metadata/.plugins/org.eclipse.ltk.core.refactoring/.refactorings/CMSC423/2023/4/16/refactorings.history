@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;CMSC423/src/BranchAndBoundP7&apos;&#x0D;&#x0A;- Original project: &apos;CMSC423&apos;&#x0D;&#x0A;- Destination element: &apos;CMSC423/src/BranchAndBoundP7&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     output&#x0D;&#x0A;     compile.sh&#x0D;&#x0A;     TestInput&#x0D;&#x0A;     run.sh" description="Copy files" destination="/src&lt;BranchAndBoundP7" element1="src/HighestScoringAlignmentP6B/output" element2="src/HighestScoringAlignmentP6B/compile.sh" element3="src/HighestScoringAlignmentP6B/TestInput" element4="src/HighestScoringAlignmentP6B/run.sh" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1681998119340" units="0" version="1.0"/>
+</session>

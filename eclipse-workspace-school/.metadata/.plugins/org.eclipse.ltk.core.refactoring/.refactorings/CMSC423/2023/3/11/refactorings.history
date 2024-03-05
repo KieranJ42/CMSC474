@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;CMSC423/src/InverseBWT&apos;&#x0D;&#x0A;- Original project: &apos;CMSC423&apos;&#x0D;&#x0A;- Destination element: &apos;CMSC423/src/InverseBWT&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     compile.sh&#x0D;&#x0A;     TestInput&#x0D;&#x0A;     run.sh&#x0D;&#x0A;     output" description="Copy files" destination="/src&lt;InverseBWT" element1="src/SuffixTreeP5/compile.sh" element2="src/SuffixTreeP5/TestInput" element3="src/SuffixTreeP5/run.sh" element4="src/SuffixTreeP5/output" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1678829366919" units="0" version="1.0"/>
+</session>

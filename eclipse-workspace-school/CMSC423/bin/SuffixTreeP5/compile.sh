@@ -1,0 +1,1 @@
+javac SuffixTree.java

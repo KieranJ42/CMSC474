@@ -1,0 +1,4 @@
+.5 length slider w/ side lengths equal to half the distance to 0 or 1
+.1 length on either side floor
+new lower confidence = 1 - distance to slider
+new higher confidence = .25 - distance to center of slider

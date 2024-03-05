@@ -1,0 +1,17 @@
+adduser Sheep
+adduser Lion
+adduser Meerkat
+adduser Numbat
+adduser Otter
+adduser Penguin
+adduser Quokka
+adduser Walrus
+addfriends Sheep Lion
+addfriends Sheep Meerkat
+addfriends Sheep Numbat
+addfriends Lion Numbat
+addfriends Meerkat Walrus
+addfriends Numbat Penguin
+addfriends Numbat Quokka
+addfriends Penguin Otter
+addfriends Quokka Walrus

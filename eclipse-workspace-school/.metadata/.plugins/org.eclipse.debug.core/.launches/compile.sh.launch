@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="de.jcup.basheditor.debug.launchConfigurationType">
+    <stringAttribute key="basheditor.debug.launch.BASH_PARAMS" value=""/>
+    <stringAttribute key="basheditor.debug.launch.BASH_PROGRAM" value="/Count DNA Letters/src/compile.sh"/>
+    <intAttribute key="basheditor.debug.launch.DEBUG_PORT" value="33333"/>
+    <stringAttribute key="basheditor.debug.launch.LAUCH_MODE" value="debug"/>
+    <booleanAttribute key="basheditor.debug.launch.STOP_ON_START" value="true"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/Count DNA Letters/src/compile.sh"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+</launchConfiguration>

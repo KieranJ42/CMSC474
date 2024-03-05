@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;CMSC423/src/HierarchicalClusteringP9&apos;&#x0D;&#x0A;- Original project: &apos;CMSC423&apos;&#x0D;&#x0A;- Destination element: &apos;CMSC423/src/HierarchicalClusteringP9&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     compile.sh&#x0D;&#x0A;     TestInput&#x0D;&#x0A;     run.sh&#x0D;&#x0A;     output" description="Copy files" destination="/src&lt;HierarchicalClusteringP9" element1="src/LloydsAlgorithmP8/compile.sh" element2="src/LloydsAlgorithmP8/TestInput" element3="src/LloydsAlgorithmP8/run.sh" element4="src/LloydsAlgorithmP8/output" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1683078055747" units="0" version="1.0"/>
+</session>

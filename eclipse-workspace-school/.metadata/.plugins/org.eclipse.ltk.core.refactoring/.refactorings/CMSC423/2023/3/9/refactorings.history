@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;CMSC423/src/GreedyMotifLaplace&apos;&#x0D;&#x0A;- Original project: &apos;CMSC423&apos;&#x0D;&#x0A;- Destination element: &apos;CMSC423/src/GreedyMotifLaplace&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     run.sh&#x0D;&#x0A;     output&#x0D;&#x0A;     compile.sh&#x0D;&#x0A;     TestInput" description="Copy files" destination="/src&lt;GreedyMotifLaplace" element1="src/SPValuesP3A/run.sh" element2="src/SPValuesP3A/output" element3="src/SPValuesP3A/compile.sh" element4="src/SPValuesP3A/TestInput" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677703697167" units="0" version="1.0"/>
+</session>

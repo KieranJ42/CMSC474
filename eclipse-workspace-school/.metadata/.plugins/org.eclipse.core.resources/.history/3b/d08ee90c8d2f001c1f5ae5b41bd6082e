@@ -1,0 +1,24 @@
+package recursiveMethods;
+
+public class RecursionClass {
+
+  public static <T> T elementAfter(DisarrayList<T> list, T element) {
+    throw new UnsupportedOperationException("You must write this method.");
+  }
+
+  public static <T> boolean areReversed(DisarrayList<T> list1,
+                                        DisarrayList<T> list2) {
+    throw new UnsupportedOperationException("You must write this method.");
+  }
+
+  public static <T> void replaceNthOccurrence(DisarrayList<T> list, T elt,
+                                              T newElt, int n) {
+    throw new UnsupportedOperationException("You must write this method.");
+  }
+
+  public static <T> DisarrayList<T> omitAfter(DisarrayList<T> list,
+                                              T element) {
+    throw new UnsupportedOperationException("You must write this method.");
+  }
+
+}

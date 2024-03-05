@@ -1,0 +1,66 @@
+package recursiveMethods;
+
+public class RecursionClass {
+
+	public static <T> T elementAfter(DisarrayList<T> list, T element) {
+		int temp = findElementIndex(list, element, 0);
+		return (temp == -1 || temp == list.size()-1 ? null : list.get(temp + 1));
+	}
+
+	private static <T> int findElementIndex(DisarrayList<T> list, T element, 
+			int indexCheck) {
+		if (indexCheck < list.size()) {
+			if (element.equals(list.get(indexCheck)))
+				return indexCheck;
+			else
+				return findElementIndex(list, element, indexCheck+1);
+		} else
+			return -1;
+	}
+
+	public static <T> boolean areReversed(DisarrayList<T> list1,
+			DisarrayList<T> list2) {
+		if (list1.size() != list2.size())
+			return false;
+		return checkCorrespondingElements(list1, list2, 0);
+	}
+
+	private static <T> boolean checkCorrespondingElements(DisarrayList<T> list1,
+			DisarrayList<T> list2, int indexCheck) {
+		if (indexCheck == list1.size())
+			return true;
+		return list1.get(indexCheck).equals(list2.get(list2.size()
+				-1-indexCheck)) ? checkCorrespondingElements(list1, 
+				list2, indexCheck+1) : false;
+	}
+
+	public static <T> void replaceNthOccurrence(DisarrayList<T> list, T elt,
+			T newElt, int n) {
+		if (elt == null || newElt == null || n <= 0)
+			throw new IllegalArgumentException("Invalid value given");
+		int i = indexOfNthOccurrence(list, elt, n, 0, 0);
+		if (i != -1)
+			list.set(i, newElt);
+	}
+	
+	private static <T> int indexOfNthOccurrence(DisarrayList<T> list, T elt,
+			int n, int indexCheck, int numFound) {
+		if (indexCheck >= list.size())
+			return -1;
+		if (list.get(indexCheck).equals(elt)) {
+			if (numFound + 1 == n)
+				return indexCheck;
+			else
+				return indexOfNthOccurrence(list, elt, n, indexCheck+1, 
+						numFound+1);
+		} else
+			return indexOfNthOccurrence(list, elt, n, indexCheck+1, numFound);
+			
+	}
+
+	public static <T> DisarrayList<T> omitAfter(DisarrayList<T> list,
+			T element) {
+		throw new UnsupportedOperationException("You must write this method.");
+	}
+
+}
