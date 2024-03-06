@@ -1,1 +1,0 @@
-java -cp /autograder/submission LloydsAlgorithm
